@@ -54,6 +54,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // );
 
 // });
+app.get("/", (req, res) => {
+  res.status(200).json({ message: "welcome to chatBOT WA" });
+});
 app.post("/waBot", (req, res) => {
   const twiml = new twilio.twiml.MessagingResponse();
   const message = req.body.Body.toLowerCase();
