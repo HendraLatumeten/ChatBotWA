@@ -54,7 +54,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // );
 
 // });
-app.get("/", (req, res) => {
+app.get("/test", (req, res) => {
   res.status(200).json({ message: "welcome to chatBOT WA" });
 });
 app.post("/waBot", (req, res) => {
