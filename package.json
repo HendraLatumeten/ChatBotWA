@@ -1,0 +1,17 @@
+{
+  "name": "chatgpt_nodejs",
+  "version": "1.0.0",
+  "description": "ChatGPT in ExpressJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "main"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "request": "^2.88.2",
+    "twilio": "^4.7.2"
+  }
+}
